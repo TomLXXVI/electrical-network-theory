@@ -1,0 +1,6 @@
+.idea/
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/
+/src/electrical_network_theory.egg-info/

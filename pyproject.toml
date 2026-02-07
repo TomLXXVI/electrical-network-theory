@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "electrical-network-theory"
+version = "0.1.0"
+description = "Theoretical study tools for electrical networks"
+readme = "README.md"
+requires-python = ">=3.14"
+
+authors = [
+  { name = "Tom Christiaens" }
+]
+
+license = { text = "MIT" }
+
+keywords = []
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib",
+  "pint",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "jupyter",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
