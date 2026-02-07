@@ -16,7 +16,7 @@ At its current stage, the project supports:
 - steady-state calculations,
 - time-domain simulation for transient effects.
 
-Examples illustrating the use of the package can be found in `/examples`.
+Sample scripts illustrating the use of the package can be found in `/examples`.
 
 ## License
 
